@@ -1,0 +1,21 @@
+---
+title: "My R Markdown File"
+author: "Your Name"
+date: "2022-01-01"
+output: html_document
+---
+
+# Introduction
+
+This is a sample R Markdown file. It allows you to combine text, code, and output in a single document.
+
+## R Code
+
+You can include R code chunks like this:
+
+```{r}
+x <- 5
+y <- 6
+z <- x * y 
+print(z)
+```

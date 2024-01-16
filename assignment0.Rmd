@@ -1,0 +1,15 @@
+---
+title: "Assignment 0"
+author: "Cieran Wong"
+date: "2024-01-16"
+output: pdf_document
+---
+
+```{r sum}
+n <- 100
+n * (n + 1) / 2
+```
+
+```{r sum2}
+sum(1:100)
+```
