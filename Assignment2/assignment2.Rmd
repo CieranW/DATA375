@@ -1,0 +1,53 @@
+---
+title: "Assignment2"
+author: "Cieran Wong"
+date: "2024-01-23"
+output: pdf_document
+---
+
+## Question 1
+```{r Question 1a}
+x <- 1:100
+plot(x,1/x,type=’l’)
+```
+
+```{r Question 1b}
+n <- c(1:100)
+y <- sum(1/(n^2))
+sum(1:100)
+```
+```{r Question 1c}
+
+```
+
+## Question 2
+```{r Question 2}
+division1 <- function(a=2, b=1){
+q <- a%/%b
+r <- a%%b
+return(c(q,r))
+}
+division2 <- function(a=2, b=1){
+q <- a%/%b
+r <- a%%b
+return(list(q = q, r = r))
+}
+division1(20,7)
+division2(20,7)
+division1(c(15,29,46),6)
+division2(c(15,29,46),6)
+```
+
+
+## Question 3
+```{r Question 3}
+power_of <- function(a = 1, b = 5, n = 1.5){
+  
+}
+```
+
+## Question 4
+```{r Question 4}
+
+```
+
